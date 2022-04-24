@@ -1,0 +1,12 @@
+.image{
+    background-image: url('../img/mainBackground.png');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    margin: auto;
+    position: relative;
+}
+.color{
+    background-color:  #E7F6FD;
+    height: 100vh;
+}

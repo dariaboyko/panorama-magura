@@ -1,0 +1,30 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom:10px;
+    padding: 0 100px;
+}
+.link, .link:hover, .link:active{
+    text-decoration: none;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.navigationTop{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    height: 70px;
+    align-items: center;
+    padding: 0 20px 0 200px;
+}
+.navigationTop .link{
+    color: black;
+}
