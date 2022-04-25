@@ -3,10 +3,10 @@ import classes from "./UkrainianNavigation.module.css";
 function UkrainianNavigation() {
   return (
     <nav className={classes.navigation}>
-      <Link className={classes.link} to="/proNas">
+      <Link className={classes.link} to="/ukrainian/aboutUs">
         Про нас
       </Link>
-      <Link className={classes.link} to="">
+      <Link className={classes.link} to="/ukrainian/rooms">
         Номера та ціни
       </Link>
       <Link className={classes.link} to="">

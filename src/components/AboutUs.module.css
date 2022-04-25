@@ -1,0 +1,31 @@
+.wrapper{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.winterPhoto{
+    width: 700px;
+    grid-row: 1/4;
+    margin: 0 15px 0 0;
+}
+.map{
+    height: 100%;
+}
+.grid{
+    padding: 15px;
+    display:grid;
+    grid-template-rows: 35px 160px 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.title{
+    font-family: 'Overpass';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+}
+.text{
+    font-family: 'Overpass';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+}
