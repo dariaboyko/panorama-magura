@@ -8,7 +8,7 @@ function App() {
     <Routes>
       <Route path="" element={<UkrainianMainPage />} />
       <Route path="/english" element={<EnglishMainPage />} />
-      <Route path="/ukrainian/*" element={<Ukrainian />} />
+      <Route exact={true} path="/ukrainian/*" element={<Ukrainian />} />
     </Routes>
   );
 }

@@ -1,5 +1,5 @@
 import classes from "./mainBackground.module.css";
 function MainColorBack(props) {
-  return <div className={classes.color}>{props.children}</div>;
+  return <section className={classes.color}>{props.children}</section>;
 }
 export default MainColorBack;

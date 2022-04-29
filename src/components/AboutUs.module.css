@@ -1,17 +1,18 @@
 .wrapper{
     width: 100%;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 .winterPhoto{
     width: 700px;
     grid-row: 1/4;
-    margin: 0 15px 0 0;
+    margin: 0 10px 0 0;
 }
 .map{
     height: 100%;
 }
 .grid{
+    margin: 0 auto;
     padding: 15px;
     display:grid;
     grid-template-rows: 35px 160px 1fr;
@@ -28,4 +29,20 @@ font-size: 25px;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
+}
+.gridNature{
+    margin: 0 auto;
+    padding: 15px;
+    display:grid;
+    grid-template-rows: 35px 1fr 440px;
+    grid-template-columns: 500px 1fr;
+}
+.gridNature .image2{
+    grid-row: 1/4;
+    height: 100%;
+}
+.gridNature .image3{
+    grid-row: 3/4;
+    height: 100%;
+    padding: 0 10px 0 0;
 }

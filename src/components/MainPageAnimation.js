@@ -1,25 +1,16 @@
-import { useLocation } from "react-router-dom";
-import { useTransition, animated } from "react-spring";
+import { useransition, animated } from "react-spring";
 function MainPageAnimation(props){
-    const location =useLocation();
-    const transitions = useTransition(location,(location)=>location.pathname,{
-        from:{
-            opacity:0,
-        },
-        enter:{
-            opacity:1,
-        },
-        leave:{
-            opacity:1,
-        },
+    const styles = useSpring({
+      from: { opacity: 0, marginTop: 550 },
+      config: { duration: 1000 },
+      to: { opacity: 1, marginTop: 0 },
+      leave: { transform: "translateY(-1000px)", duration: 1000 },
     });
   return (
-      <>
-    {transitions.map(({item,styles,key})=>(
-        <animated.div key={key} style={styles}>{props.children}
-    </animated.div>
-    ))}
-   </>
+    <>
+      <animated.div style={styles}>{props.children}
+      </animated.div>
+    </>
   );
 };
 export default MainPageAnimation;
