@@ -6,7 +6,7 @@ function UkrainianNatureNear() {
       <img
         className={classes.image3}
         src={require("../img/image3.png")}
-        alt="садиба взимку"
+        alt="садиба влітку"
       />
       <p className={classes.text}>
         Садиба знаходиться попід самою горою Магурою. Вище нас тільки ліс, в
@@ -16,7 +16,7 @@ function UkrainianNatureNear() {
       <img
         className={classes.image2}
         src={require("../img/image2.png")}
-        alt="садиба взимку"
+        alt="вид з садиби"
       />
     </div>
   );
