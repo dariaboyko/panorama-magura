@@ -1,4 +1,4 @@
-import classes from "../../components/AboutUs.module.css";
+import classes from "../../components/css/AboutUs.module.css";
 import UkrainianLocation from "../../components/UkrainianLocation";
 import UkrainianNatureNear from "../../components/UkrainianNatureNear";
 import UkrainianOwnFarm from "../../components/UkrainianOwnFarm";

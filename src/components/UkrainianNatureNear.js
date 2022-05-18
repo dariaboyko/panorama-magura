@@ -1,4 +1,4 @@
-import classes from "./AboutUs.module.css";
+import classes from "./css/AboutUs.module.css";
 function UkrainianNatureNear() {
   return (
     <div className={classes.gridNature}>

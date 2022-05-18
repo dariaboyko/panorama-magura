@@ -1,4 +1,4 @@
-import classes from "./AboutUs.module.css";
+import classes from "./css/AboutUs.module.css";
 function UkrainianLocation() {
   return (
     <div className={classes.grid}>

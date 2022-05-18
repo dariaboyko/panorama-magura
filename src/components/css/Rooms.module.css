@@ -1,6 +1,6 @@
 
 .firstFloorBackground{
-     background-image: url('../img/firstFloorBack.jpg');
+     background-image: url('../../img/firstFloorBack.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -36,7 +36,7 @@
     margin: 20px 0 0 650px;
 }
 .secondFloorBackground{
-     background-image: url('../img/stairs.jpg');
+     background-image: url('../../img/stairs.jpg');
     background-position: center;
     background-size: cover;
 }

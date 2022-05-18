@@ -1,4 +1,4 @@
-import classes from "./Rooms.module.css";
+import classes from "./css/Rooms.module.css";
 import classNames from "classnames";
 import ContentPageAnimation from "./ContentPageAnimation";
 function UkrainianRoomsFirstFloor(props) {

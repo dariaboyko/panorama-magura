@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import classes from "./LanguageSwitcher.module.css";
+import classes from "./css/LanguageSwitcher.module.css";
 function LanguageSwitcher() {
     return (<nav className={classes.languageSwitcher}>
       <Link to="/" className={classes.link}>

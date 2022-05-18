@@ -1,6 +1,6 @@
 import ContentPageAnimation from "../../components/ContentPageAnimation";
-import classes from "../../components/UkrainianContacts.module.css";
-function UkrainianContacts() {
+import classes from "../../components/css/Contacts.module.css";
+function UkrainianContactsPage() {
   return (
     <ContentPageAnimation>
       <section className={classes.wrapper}>
@@ -25,4 +25,4 @@ function UkrainianContacts() {
     </ContentPageAnimation>
   );
 }
-export default UkrainianContacts;
+export default UkrainianContactsPage;

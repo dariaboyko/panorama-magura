@@ -1,4 +1,4 @@
-import { useransition, animated } from "react-spring";
+import { animated } from "react-spring";
 function MainPageAnimation(props){
     const styles = useSpring({
       from: { opacity: 0, marginTop: 550 },

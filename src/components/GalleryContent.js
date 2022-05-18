@@ -1,4 +1,4 @@
-import classes from "./Gallery.module.css";
+import classes from "./css/Gallery.module.css";
 function GalleryContent() {
     const pictures = [
       { id: 1, src: require("../img/galleryPage/image1.jpg"), alt: "козиний сир" },

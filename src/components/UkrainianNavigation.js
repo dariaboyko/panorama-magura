@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import classes from "./UkrainianNavigation.module.css";
+import classes from "./css/Navigation.module.css";
 function UkrainianNavigation() {
   return (
     <nav className={classes.navigation}>

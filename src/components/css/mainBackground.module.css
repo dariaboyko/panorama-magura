@@ -1,5 +1,5 @@
 .image{
-    background-image: url('../img/mainBackground.png');
+    background-image: url('../../img/mainBackground.png');
     height: 100vh;
     width: 100vw;
     background-position: center;

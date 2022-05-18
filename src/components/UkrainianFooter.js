@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import classes from "./UkrainianFooter.module.css";
+import classes from "./css/Footer.module.css";
 function UkrainianFooter() {
   return (
     <footer className={classes.footer}>
