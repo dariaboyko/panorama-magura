@@ -16,14 +16,14 @@ function UkrainianFooter() {
         </Link>
         <div className={classes.line}></div>
         <Link className={classes.link} to="/ukrainian/rooms">
-          Номера та ціни
+          Номери та ціни
         </Link>
         <div className={classes.line}></div>
-        <Link className={classes.link} to="">
+        <Link className={classes.link} to="/ukrainian/gallery">
           Галерея
         </Link>
         <div className={classes.line}></div>
-        <Link className={classes.link} to="">
+        <Link className={classes.link} to="/ukrainian/contacts">
           Контакти
         </Link>
       </nav>

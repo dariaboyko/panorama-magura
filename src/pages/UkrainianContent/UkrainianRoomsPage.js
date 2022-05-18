@@ -1,17 +1,12 @@
-import classes from "../../components/AboutUs.module.css";
-import UkrainianLocation from "../../components/UkrainianLocation";
-import UkrainianNatureNear from "../../components/UkrainianNatureNear";
-import UkrainianOwnFarm from "../../components/UkrainianOwnFarm";
-import ContentPageAnimation from "../../components/ContentPageAnimation";
+
+import UkrainianRoomsFirstFloor from "../../components/UkrainianRoomsFirstFloor";
+import UkrainianRoomsSecondFloor from "../../components/UkrainianRoomsSecondFloor";
 function UkrainianRoomsPage() {
   return (
-    <div className={classes.wrapper}>
-      <ContentPageAnimation>
-        <UkrainianLocation />
-        <UkrainianNatureNear />
-        <UkrainianOwnFarm />
-      </ContentPageAnimation>
-    </div>
+    <>
+      <UkrainianRoomsFirstFloor />
+      <UkrainianRoomsSecondFloor />
+    </>
   );
 }
 export default UkrainianRoomsPage;

@@ -11,3 +11,17 @@
     margin: -58px 0 0 -447px;
     
 }
+@media screen and (max-width: 920px) {
+   .title{
+    top:50%;
+    margin: -58px 0 0 0;
+    left: 0;
+    
+}}
+@media screen and (max-width: 560px) {
+   .title{
+    font-size: 50px;
+    line-height: 75px;
+    
+}
+}

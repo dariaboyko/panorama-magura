@@ -7,12 +7,12 @@ function UkrainianNavigation() {
         Про нас
       </Link>
       <Link className={classes.link} to="/ukrainian/rooms">
-        Номера та ціни
+        Номери та ціни
       </Link>
-      <Link className={classes.link} to="">
+      <Link className={classes.link} to="/ukrainian/gallery">
         Галерея
       </Link>
-      <Link className={classes.link} to="">
+      <Link className={classes.link} to="/ukrainian/contacts">
         Контакти
       </Link>
     </nav>
