@@ -81,32 +81,59 @@ width: 99%;
     height: 99%;
     width: 99%;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1240px) {
+    .gridNature{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: auto auto auto;
+    }
+    .farmGrid{
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 35px auto auto;
+    }
+    .gridNature .image2{
+         height: auto;
+         margin: 0 auto;
+         grid-column: 2;
+    }
+    .farmGrid .image4{
+        height: auto;
+        margin: 0 auto;
+        grid-column: 1;
+    }
+    .farmGrid .title, .farmGrid .text{
+        grid-column:2 ;
+    }
+    .farmGrid .image6, .farmGrid .image5, .gridNature .image3{
+        display: none;
+    }
+    .text{
+    font-size: 17px;
+    }
+    .farmGrid, .gridNature{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 870px) {
+    .farmGrid .image6, .farmGrid .image5, .gridNature .image3{
+        display: block;
+    }
     .gridNature{
         grid-template-columns: 1fr 1fr;
     }
-    .farmGrid{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 35px 330px 1fr;
+    .image2{
+        display: block;
     }
-
-.farmGrid .image6, .farmGrid .image5,.farmGrid .image4,.gridNature .image2,.gridNature .image3{
-   height: auto;
-}
-.text{
-font-size: 16px;
-}
-}
-@media screen and (max-width: 775px) {
     .farmGrid .image6, .farmGrid .image5,.farmGrid .image4,.gridNature .image2,.gridNature .image3{
-   width: 100%;
-    margin: 5px 0;
-}
-.winterPhoto{
-    width: 100%;
-    margin:  0 0 5px 0;
-}
+        width: 100%;
+        margin: 5px 0;
+    }
+    .winterPhoto{
+        width: 100%;
+        margin:  0 0 5px 0;
+    }
      .gridNature, .grid,.farmGrid{
+         text-align: left;
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -114,13 +141,13 @@ font-size: 16px;
         width: 100%;
     }
     .gridNature .image3{
-   display: none;
+        display: none;
     }
     .map{
-    height: 300px;
-    width: 100%;
-}
-.text,.title{
-    margin: 5px;
-}
+        height: 300px;
+        width: 100%;
+    }
+    .text,.title{
+        margin: 5px;
+    }
 }
