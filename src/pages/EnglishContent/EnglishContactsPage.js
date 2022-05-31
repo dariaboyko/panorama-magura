@@ -4,8 +4,12 @@ function EnglishContactsPage() {
   return (
     <ContentPageAnimation>
       <section className={classes.wrapper}>
+        <h2 className={classes.subTitle}> Phone number:</h2>
         <a href="tel:+380 97 065 6767" className={classes.subTitle}>
-          Phone number:<br></br> +380 97 065 6767
+          +380 97 065 6767
+        </a>
+        <a href="tel:+380 63 608 9924" className={classes.subTitle}>
+          +380 63 608 9924
         </a>
         <a
           className={classes.subTitle}
