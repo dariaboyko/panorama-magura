@@ -37,7 +37,7 @@ function EnglishRoomsSecondFloor() {
             )}
           >
             On the second floor there are 2 double rooms (double or 2 single
-            rooms) beds, wardrobe); triple room (3 single beds, wardrobe for
+            rooms) beds, wardrobe; triple room (3 single beds, wardrobe for
             clothes); 1 bathroom (shower, toilet, washbasin, hair dryer).
             Heating: autonomous water. Water supply: hot and cold water
             constantly.

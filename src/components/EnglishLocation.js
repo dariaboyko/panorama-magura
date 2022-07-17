@@ -9,10 +9,9 @@ function EnglishLocation() {
       />
       <h2 className={classes.title}>Location</h2>
       <p className={classes.text}>
-        The abbey "PANORAMA MAGURA" is located in a picturesque place, from
-        where a magnificent panorama of the Carpathian Mountains opens. In the
-        village of Tatariv, on the mountain Magura Nadvirnyanska, 1.2 km from
-        the village center, 900 m from the bus stop on the road Tatariv – Verkhovyna –
+        The abbey "PANORAMA MAGURA" is located in a picturesque place, where a magnificent panorama of the Carpathian Mountains opens. In the
+        village Tatariv, on the mountain Magura Nadvirnyanska, 1.2 km from
+        the village center, 900 m to the bus stop on the road Tatariv – Verkhovyna –
         Kosiv, 14 km to the ski complex "Bukovel". 
       </p>
       <iframe

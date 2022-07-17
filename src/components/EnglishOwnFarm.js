@@ -9,12 +9,12 @@ function EnglishOwnFarm() {
       />
       <h2 className={classes.title}>Our farm</h2>
       <p className={classes.text}>
-        We have cute goats and chickens, so we always have fresh milk and eggs.
-        We make our own cheeses and sour milk products from goat's milk. Also we
-        cook soap, and in the summer we collect herbs for real Carpathian tea.
-        All 100% products made with their own hands and from natural products.
-        Exist function of walking with goats in the mountains) If you have an
-        animal you can not worry enough space for everyone
+        We have cute our goats and chickens, so we always have fresh milk and eggs.
+        We make our own cheeses and dairy products from goats' milk. Also we
+        make soaps, and in the summer we collect herbs for real Carpathian tea.
+        All products are made with our own hands and from natural products.
+        You can go on a walk with our goats in the mountains. If you have any
+        animals you can come with them.
       </p>
       <img
         className={classes.image5}

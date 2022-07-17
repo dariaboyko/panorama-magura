@@ -30,10 +30,10 @@ function EnglishRoomsFirstFloor(props) {
             alt="вид з садиби"
           />
           <p className={classNames(classes.mainText, classes.roomPrices)}>
-            You can rent a separate room or the whole estate: <br></br> double
-            room - 900 ₴ per night <br></br> triple room - 1200 ₴ per night
+            You can rent a whole house for: <br></br>3300 ₴ per night <br></br>
+            2200 $ per month
             <br></br>
-            farmstead - 2500 ₴ per night
+            Arriving at 2 pm, leaving at 12 am, there can be other options.
           </p>
           <img
             className={classes.image9}

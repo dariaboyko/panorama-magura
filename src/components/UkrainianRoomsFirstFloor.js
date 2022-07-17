@@ -31,7 +31,7 @@ function UkrainianRoomsFirstFloor(props) {
           />
           <p className={classNames(classes.mainText, classes.roomPrices)}>
             Сдається вся садиба:<br></br>
-            3300 ₴ за ніч <br></br>2200$ за місяць <br></br>Заїзд о 14:00,
+            3300 ₴ за ніч <br></br>2200 $ за місяць <br></br>Заїзд о 14:00,
             виїзд о 12:00, можуть бути виключення.
           </p>
           <img

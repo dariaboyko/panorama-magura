@@ -9,8 +9,7 @@ function EnglishNatureNear() {
         alt="садиба влітку"
       />
       <p className={classes.text}>
-        The estate is located under the mountain Magura. Above us only the
-        forest, in which you can meet roe deers, owls and salamanders. There are many
+        The house is located under the mountain Magura. Above us only a forest, in which you can meet roe deers, owls and salamanders. There are many
         nearby tourist routes that take one day to finish.
       </p>
       <img
