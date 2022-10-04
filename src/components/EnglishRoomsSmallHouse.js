@@ -2,7 +2,7 @@ import classes from "./css/Rooms.module.css";
 import classNames from "classnames";
 import ContentPageAnimation from "./ContentPageAnimation";
 import ImageGallery from "react-image-gallery";
-function UkrainianRoomsSmallHouse(props) {
+function EnglishRoomsSmallHouse(props) {
   const images = [
     {
       original: require("../img/gallery/image10.jpg"),
@@ -27,9 +27,9 @@ function UkrainianRoomsSmallHouse(props) {
               classes.firstFloorDescription
             )}
           >
-            Також є котедж на дві кімнати, 6 місць. Кухня, індукційна плита,
-            столова, кондиціонер, що працює і на опалення. Вбиральня одна,
-            душова велика з теплою підлогою. Чудовий краєвид
+            There is also a two-room cottage for 6 people. There are kitchen, induction
+            stove, dining room, air conditioner that also works for heating, one
+            toilet, shower, that is large with a warm floor. A wonderful view
           </p>
           <img
             className={classes.image13}
@@ -42,9 +42,11 @@ function UkrainianRoomsSmallHouse(props) {
             alt="вид з садиби"
           />
           <p className={classNames(classes.mainText, classes.roomPrices)}>
-            Сдається вся садиба:<br></br>
-            1800 ₴ за ніч <br></br>1500 ₴ 7 діб <br></br>1100 $ за місяць
-            <br></br>Заїзд о 14:00, виїзд о 12:00, можуть бути виключення.
+            You can rent a whole house for:<br></br>
+            1800 ₴ per night <br></br>1500 ₴ per 7 nights <br></br>1100 $ per
+            month
+            <br></br>Arriving at 2 pm, leaving at 12 am, there can be other
+            options.
           </p>
           <img
             className={classes.image9}
@@ -60,8 +62,8 @@ function UkrainianRoomsSmallHouse(props) {
                 classes.firstFloorDescription
               )}
             >
-              На другому поверсі — 2 тримісні номери (двоспальне ліжко,
-              односпальне ліжко, шафа для одягу, стіл)
+              There are two rooms for three people. Each one includes one bad
+              for two, one bad for one, table and wardrobe.
             </p>
             <section className={classes.gallery}>
               <ImageGallery items={images} />
@@ -72,4 +74,4 @@ function UkrainianRoomsSmallHouse(props) {
     </div>
   );
 }
-export default UkrainianRoomsSmallHouse;
+export default EnglishRoomsSmallHouse;
