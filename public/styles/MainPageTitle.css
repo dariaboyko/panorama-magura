@@ -1,0 +1,39 @@
+.title {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  color: #ffffff;
+  line-height: 116px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -58px 0 0 -447px;
+}
+.englishTitle {
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  color: #ffffff;
+  line-height: 116px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -58px 0 0 -447px;
+}
+@media screen and (max-width: 920px) {
+  .title,
+  .englishTitle {
+    top: 50%;
+    margin: -58px 0 0 0;
+    left: 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .title,
+  .englishTitle {
+    font-size: 50px;
+    line-height: 75px;
+  }
+}

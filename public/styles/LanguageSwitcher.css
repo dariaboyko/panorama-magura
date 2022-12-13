@@ -1,0 +1,22 @@
+.languageSwitcher {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  margin: 5px 5px 0 0;
+}
+.languageSwitcher--line {
+  height: 25px;
+  width: 2px;
+  background-color: white;
+}
+.languageSwitcher--link {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  text-decoration: none;
+  color: white;
+}

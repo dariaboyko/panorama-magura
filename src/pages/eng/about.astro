@@ -1,0 +1,33 @@
+---
+import EnglishAboutUsPage from "../../content/EnglishContent/EnglishAboutUsPage";
+import EnglishNavigationTop from "../../components/EnglishNavigationTop";
+import MainColorBack from "../../components/MainColorBack";
+import Logo from "../../components/Logo";
+import EnglishFooter from "../../components/EnglishFooter";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/styles/index.css" rel="stylesheet" />
+    <link href="/styles/AboutUs.css" rel="stylesheet" />
+    <link href="/styles/mainBackground.css" rel="stylesheet" />
+    <link href="/styles/Navigation.css" rel="stylesheet" />
+    <link href="/styles/Logo.css" rel="stylesheet" />
+    <link href="/styles/Footer.css" rel="stylesheet" />
+    <meta
+      name="description"
+      content="Panorama Magura - hotel in Ukrainian Carpathians"
+    />
+    <title>Panorama Magura</title>
+  </head>
+  <body>
+    <MainColorBack>
+      <Logo client:load />
+      <EnglishNavigationTop client:load /><EnglishAboutUsPage client:load />
+    </MainColorBack>
+    <EnglishFooter client:load />
+  </body>
+</html>
