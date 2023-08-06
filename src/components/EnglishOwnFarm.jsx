@@ -1,7 +1,7 @@
 function EnglishOwnFarm() {
   return (
     <div className="farmGrid">
-      <img className="image4" src={"../img/image4.png"} alt="кози на горі" />
+      <img className="image4" src={"/img/image4.png"} alt="кози на горі" />
       <h2 className="title">Our farm</h2>
       <p className="text">
         We have cute our goats and chickens, so we always have fresh milk and
@@ -11,10 +11,10 @@ function EnglishOwnFarm() {
         You can go on a walk with our goats in the mountains. If you have any
         animals you can come with them.
       </p>
-      <img className="image5" src={"../img/image5.png"} alt="кури" />
+      <img className="image5" src={"/img/image5.png"} alt="кури" />
       <img
         className="image6"
-        src={"../img/image6.png"}
+        src={"/img/image6.png"}
         alt="козине молоко та сир"
       />
     </div>

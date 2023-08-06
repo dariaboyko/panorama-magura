@@ -1,7 +1,7 @@
 function UkrainianOwnFarm() {
   return (
     <div className="farmGrid">
-      <img className="image4" src={"../img/image4.png"} alt="кози на горі" />
+      <img className="image4" src={"/img/image4.png"} alt="кози на горі" />
       <h2 className="title">Своє господарство</h2>
       <p className="text">
         У нас є милі козочки та курочки, тож завжди маємо свіже молоко та яйця.

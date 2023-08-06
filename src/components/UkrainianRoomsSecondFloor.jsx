@@ -3,25 +3,25 @@ import ContentPageAnimation from "./ContentPageAnimation";
 function UkrainianRoomsSecondFloor() {
   const images = [
     {
-      original: "../img/gallery/coupleroom2.png",
+      original: "/img/gallery/coupleroom2.png",
     },
     {
-      original: "../img/gallery/coupleroom.png",
+      original: "/img/gallery/coupleroom.png",
     },
     {
-      original: "../img/gallery/2placesroom.png",
+      original: "/img/gallery/2placesroom.png",
     },
     {
-      original: "../img/gallery/2placesroomcloset.png",
+      original: "/img/gallery/2placesroomcloset.png",
     },
     {
-      original: "../img/gallery/3placesroom.png",
+      original: "/img/gallery/3placesroom.png",
     },
     {
-      original: "../img/gallery/wc.png",
+      original: "/img/gallery/wc.png",
     },
     {
-      original: "../img/gallery/wc2.png",
+      original: "/img/gallery/wc2.png",
     },
   ];
   return (

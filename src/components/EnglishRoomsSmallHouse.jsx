@@ -3,16 +3,16 @@ import ImageGallery from "react-image-gallery";
 function EnglishRoomsSmallHouse(props) {
   const images = [
     {
-      original: "../img/gallery/image10.jpg",
+      original: "/img/gallery/image10.jpg",
     },
     {
-      original: "../img/gallery/image11.jpg",
+      original: "/img/gallery/image11.jpg",
     },
     {
-      original: "../img/gallery/image15.jpg",
+      original: "/img/gallery/image15.jpg",
     },
     {
-      original: "../img/gallery/image16.jpg",
+      original: "/img/gallery/image16.jpg",
     },
   ];
   return (
@@ -27,14 +27,10 @@ function EnglishRoomsSmallHouse(props) {
           </p>
           <img
             className="image13"
-            src={"../img/image13.jpg"}
+            src={"/img/image13.jpg"}
             alt="вид з садиби"
           />
-          <img
-            className="image8"
-            src={"../img/image12.jpg"}
-            alt="вид з садиби"
-          />
+          <img className="image8" src={"/img/image12.jpg"} alt="вид з садиби" />
           <p className="mainText roomPrices">
             You can rent a whole house for:<br></br>
             2200 ₴ per night <br></br>
@@ -44,11 +40,7 @@ function EnglishRoomsSmallHouse(props) {
             <br></br>Arriving at 2 pm, leaving at 12 am, there can be other
             options.
           </p>
-          <img
-            className="image9"
-            src={"../img/image14.jpg"}
-            alt="вид з садиби"
-          />
+          <img className="image9" src={"/img/image14.jpg"} alt="вид з садиби" />
         </div>
         <div className="smallHouseBackgroundStairs">
           <div className="contentWrapper">

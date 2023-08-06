@@ -3,16 +3,16 @@ import ImageGallery from "react-image-gallery";
 const UkrainianRoomsSmallHouse = () => {
   const images = [
     {
-      original: "../img/gallery/image10.jpg",
+      original: "/img/gallery/image10.jpg",
     },
     {
-      original: "../img/gallery/image11.jpg",
+      original: "/img/gallery/image11.jpg",
     },
     {
-      original: "../img/gallery/image15.jpg",
+      original: "/img/gallery/image15.jpg",
     },
     {
-      original: "../img/gallery/image16.jpg",
+      original: "/img/gallery/image16.jpg",
     },
   ];
   return (
@@ -26,14 +26,10 @@ const UkrainianRoomsSmallHouse = () => {
           </p>
           <img
             className="image13"
-            src={"../img/image13.jpg"}
+            src={"/img/image13.jpg"}
             alt="вид з садиби"
           />
-          <img
-            className="image8"
-            src={"../img/image12.jpg"}
-            alt="вид з садиби"
-          />
+          <img className="image8" src={"/img/image12.jpg"} alt="вид з садиби" />
           <p className="mainText roomPrices">
             Сдається весь котедж:<br></br>
             2200 ₴ за ніч <br></br>2000 ₴({"> "}7 діб) за ніч<br></br>1100 ₴(
@@ -41,11 +37,7 @@ const UkrainianRoomsSmallHouse = () => {
             <br></br>Вартість у новорічний період:<br></br>4000 ₴ за ніч(мінімум
             5 діб)<br></br>Заїзд о 14:00, виїзд о 12:00, можуть бути виключення.
           </p>
-          <img
-            className="image9"
-            src={"../img/image14.jpg"}
-            alt="вид з садиби"
-          />
+          <img className="image9" src={"/img/image14.jpg"} alt="вид з садиби" />
         </div>
         <div className="smallHouseBackgroundStairs">
           <div className="contentWrapper">

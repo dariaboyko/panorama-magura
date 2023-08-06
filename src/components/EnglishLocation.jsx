@@ -3,7 +3,7 @@ function EnglishLocation() {
     <div className="grid">
       <img
         className="winterPhoto"
-        src={"../img/image1.png"}
+        src={"/img/image1.png"}
         alt="садиба взимку"
       />
       <h2 className="title">Location</h2>
