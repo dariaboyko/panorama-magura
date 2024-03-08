@@ -16,7 +16,7 @@ function UkrainianRoomsFirstFloor(props) {
           <img className="image7" src={"/img/image7.png"} alt="вид з садиби" />
           <p className="mainText roomPrices">
             Сдається вся садиба:<br></br>
-            3200 ₴ за ніч <br></br>3000 ₴({"> "}7 діб) за ніч
+            4000 ₴ за ніч <br></br>3500 ₴({"> "}7 діб) за ніч
             <br></br>Вартість у новорічний період:<br></br>5100 ₴ за ніч(мінімум
             5 діб)<br></br>
             Заїзд о 14:00, виїзд о 12:00, можуть бути виключення.

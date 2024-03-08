@@ -32,7 +32,7 @@ const UkrainianRoomsSmallHouse = () => {
           <img className="image8" src={"/img/image12.jpg"} alt="вид з садиби" />
           <p className="mainText roomPrices">
             Сдається весь котедж:<br></br>
-            2500 ₴ за ніч <br></br>2300 ₴({"> "}7 діб) за ніч
+            3500 ₴ за ніч <br></br>3000 ₴({"> "}7 діб) за ніч
             <br></br>Вартість у новорічний період:<br></br>4000 ₴ за ніч(мінімум
             5 діб)<br></br>Заїзд о 14:00, виїзд о 12:00, можуть бути виключення.
           </p>

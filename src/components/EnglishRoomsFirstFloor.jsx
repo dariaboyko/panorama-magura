@@ -15,8 +15,8 @@ function EnglishRoomsFirstFloor() {
           <img className="image8" src={"/img/image8.png"} alt="вид з садиби" />
           <img className="image7" src={"/img/image7.png"} alt="вид з садиби" />
           <p className="mainText roomPrices">
-            You can rent a whole house for: <br></br> 3200 ₴ per night <br></br>
-            3000 ₴({"> "}7 days) per night
+            You can rent a whole house for: <br></br> 4000 ₴ per night <br></br>
+            3500 ₴({"> "}7 days) per night
             <br></br>Holidays price:<br></br>5100 ₴ per night(min 5 days)
             <br></br>
             Arriving at 2 pm, leaving at 12 am, there can be other options.

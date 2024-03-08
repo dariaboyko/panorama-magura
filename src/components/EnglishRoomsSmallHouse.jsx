@@ -33,8 +33,8 @@ function EnglishRoomsSmallHouse(props) {
           <img className="image8" src={"/img/image12.jpg"} alt="вид з садиби" />
           <p className="mainText roomPrices">
             You can rent a whole house for:<br></br>
-            2500 ₴ per night <br></br>
-            2300 ₴({"> "}7 days) per night
+            3500 ₴ per night <br></br>
+            3000 ₴({"> "}7 days) per night
             <br></br>Holidays price:<br></br>4000 ₴ per night(min 5 days)
             <br></br>Arriving at 2 pm, leaving at 12 am, there can be other
             options.
